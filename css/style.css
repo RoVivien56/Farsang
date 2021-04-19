@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+#content {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img.header {
+    width: 100%;
+}
+
+img.fank {
+    float: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+#hozzavalok {
+    float: left;
+    padding-left: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+#reszletek {
+    content:'';
+    clear: both;
+    display: table
+}
+
+#sztori {
+    float: left;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 25px;
+}
+
+#elkeszites {
+    float: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+.terkozbehuzas {
+    padding-left: 15px;
+    margin-bottom: 35px;
+}
+
+.kisterkoz {
+    margin: 10px 0;
+}
+
+p, a, li {
+    font-size: 10pt;
+}
+
+p, li, h1, h2 {
+    color: #555;
+}
+
+li {
+    line-height: 22px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
